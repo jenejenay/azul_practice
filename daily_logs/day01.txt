@@ -1,0 +1,15 @@
+Date: 31-07-2025
+
+#Creating the first log (Day 1)
+
+I will start going over the book Invent Your Own Computer Games with Python 
+by Al Sweigart. This book will teach me how a game is broken into state, logic,
+players, turns, and such...
+
+By working through the examples of the book, I will try to adapt its patterns,
+applying what I learn to the board game I am also trying to simulate in Python.
+
+Important Chapters to focus on today will be Chapter 1, The Interactive Shell,
+and Chapter 2, Writing Programs. I will go up to Chapter 16 of the book. But,
+if anything else is needed to improve the board game somehow, I will go over 
+the other remaining chapters to see what can be used.
