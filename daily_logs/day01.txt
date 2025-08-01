@@ -41,7 +41,7 @@ that they differ from Python interpreter. You can press Ctrl plus button under
 Esc to easily make a new terminal, or go to the top of Explorer. To get to
 Python interpreter, you need to type python into the powershell, or terminal.
 You will notice that if you try to evaluate the expression 14/2 in powershell,
-or terminal, you'd get 7. But if you do the same in Python's terminal, you'd
+or terminal, you'd get 7. But if you do the same in Python's interpreter, you'd
 see the value returned as a float, or floating point number, i.e. 7.0. I think
 the result from evaluating the expressions are called the true values? I will
 check tomorrow... Ah... and to move between powershell, or terminal, and the
