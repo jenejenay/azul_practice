@@ -9,11 +9,13 @@ players, turns, and such...
 By working through the examples of the book, I will try to adapt its patterns,
 applying what I learn to the board game I am also trying to simulate in Python.
 
-Important Chapters to focus on today will be Chapter 1, The Interactive Shell,
-in VS Code as I learned it as, the terminal. And Chapter 2, Writing Programs. 
-I will go up to Chapter 16 of the book. But, if anything else is needed to 
-improve the board game somehow, I will go over the other remaining chapters to 
-see what can be used.
+Important Chapters to focus on today will be Chapter 1, The Python Interactive
+Shell, and Chapter 2, Writing Programs. The Python interactive shell can be 
+reached in VS Code via typing python in the VS Code terminal/powershell, but
+more of this explained in paragraphs at the end of this note/text. I will go up
+to Chapter 16 of the book. But, if anything else is needed to improve the board
+game somehow, I will go over the other remaining chapters to see what can be 
+used.
 
 ############# Chapter 1 #############
 Learned about operators in Python, so addition, subtraction, multiplication, 
@@ -22,7 +24,7 @@ they are evaluated...
 
 In short, an expression is basically held together by an operator and values,
 numbers around it. The operators tell Python what to do with the numbers, or 
-values...these numbers, or values can either be integers, or in short int, so
+values...these numbers, or values can either be integers, in short int, so
 whole numbers, or they can be called floating point numbers otherwise known
 as float, which can be fractions or numbers with decimal points.
 
@@ -36,18 +38,18 @@ not start, or begin with spaces...there can be as many spaces between a number,
 or value and an operator tho. And that the size of an expression matters not,
 it will eventually be returned as a single value which can be used by code.
 
-NOTE: I also learned about Python powershell being the Python terminal, and
-that they differ from Python interpreter. You can press Ctrl plus button under
-Esc to easily make a new terminal, or go to the top of Explorer. To get to
-Python interpreter, you need to type python into the powershell, or terminal.
-You will notice that if you try to evaluate the expression 14/2 in powershell,
-or terminal, you'd get 7. But if you do the same in Python's interpreter, you'd
-see the value returned as a float, or floating point number, i.e. 7.0. I think
-the result from evaluating the expressions are called the true values? I will
-check tomorrow... Ah... and to move between powershell, or terminal, and the
-Python interpreter, you need to type python, which takes you from powershell,
-or terminal, to interpreter. And then to go back, you must just type Ctrl+Z and
-press Enter, or exit() + Enter. 
+NOTE: I also learned about Python powershell being the Python terminal in VS
+Code, and that they differ from Python interpreter. You can press Ctrl plus 
+button under Esc to easily make a new terminal, or go to the top of Explorer.
+To get to Python interpreter, you need to type python into the powershell, or
+terminal. You will notice that if you try to evaluate the expression 14/2 in
+powershell, or terminal, you'd get 7. But if you do the same in Python's
+interpreter, you'd see the value returned as a float, or floating point number,
+i.e. 7.0. I think the result from evaluating the expressions are called the
+true values? I will check tomorrow... Ah... and to move between powershell, or
+terminal, and the Python interpreter, you need to type python, which takes you
+from powershell, or terminal, to interpreter. And then to go back, you must
+just type Ctrl+Z and press Enter, or exit() + Enter. 
 
 #### Tomorrow I must go over syntax errors and storing values in variables...
 which will then be the end of Chapter 1. I will then start with Chapter 2,
