@@ -1,0 +1,53 @@
+Date: 02/08/25
+
+######### Still on Chapter 1 - last two sections #########
+
+I will be going over the last two sections of Chapter 1; Syntax Errors, and 
+ Storing/Assigning Values to Variables...
+
+#### Syntax Errors ###
+Python shoots out SyntaxErrors when it does not understand instructions that
+are given incorrectly. E.g. when given the instruction to evaluate expression
+6+, it will shoot out SyntaxError: invalid syntex. Why? Looking at the def of
+expressions, they are values that are held together by an operator. So, the 
+operators expect values before it and after it. And when the expected value is
+missing, Python screams out that something is wrong...
+
+Note: the above description happens only in the Python interactive shell. It
+not happen in the VS Code powershell/terminal. Example of difference below:
+
+### Example, working in the Python interactive shell ###
+>>> 6+
+SyntaxError: invalid syntex
+
+### Example, working in the VS Code terminal/powershell ###
+PS -path-> 6+...
+
+In this example, you will notice that the prompt ">" will be highlighted in red
+because the VS Code terminal/powershell is waiting for, or expecting the whole
+instruction...and after pressing enter, you will be given prompt ">>" to finish
+the instruction. So, it will look like this:
+PS -path-> 6+
+>>5
+11
+...it does not shoot out an error like it does in the Python interactive shell.
+
+Note 2: it is important to not be afraid if you made a SyntaxError in the
+Python interactive shell. It will not cause your computer to have errors. Just
+make sure to retype instructions correctly in the Python interactive shell by 
+the next prompt ">>>".
+
+Note3: Tried the example expression in Python interactive shell, and left out 
+the before value/number, but immediately added a space...see below:
+>>> +5
+IndendationError: unexpected indent
+
+So, it basically also gave an error, but IndentationError: unexpected indent,
+which is what we mentioned in the previous note of day01.txt - there can be as
+many spaces between the values and operators in expressions, but there can't be
+spaces before the expected before value in front of the operator. However, when
+typing the instruction +5, it does not give an error at all, it gives positive
+5.
+
+### Storing/Assigning Values to Variables ###
+
